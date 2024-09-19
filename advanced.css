@@ -1,0 +1,59 @@
+body {
+  padding: 10px;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+ul {
+  text-align: right;
+}
+
+.row {
+  width: 50%;
+  margin: 5px;
+  font-size: 12px;
+}
+
+input {
+  padding: 5px;
+}
+
+.col {
+  padding: 5px;
+}
+
+.search {
+  padding: 10px;
+}
+
+.submit-btn {
+  text-align: end;
+}
+
+#advanced-btn {
+  color: white;
+  background-color: #8ab4f8;
+  border-radius: 2px;
+  border-color: #8ab4f8;
+  text-align: center;
+  box-shadow: none;
+  outline: 0;
+  border: 1px solid #3079ed;
+  float: right;
+}
+
+#advanced-btn-container {
+  padding-right: 0;
+}
